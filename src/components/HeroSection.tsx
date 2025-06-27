@@ -76,8 +76,8 @@ const HeroSection: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-300 mb-8">
-            Non-invasive diagnostics via MRI, enhanced by 
-            transformer-based AI and large language models.
+          An AI-powered MRI analysis software pipeline to help pediatric neurologists, radiologists, and clinical researchers detect and monitor Duchenne Muscular Dystrophy early. Beyond early diagnosis, the tool supports continuous monitoring to assess treatment efficacy—helping reduce the costs and side effects associated with ineffective gene therapies.
+
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">

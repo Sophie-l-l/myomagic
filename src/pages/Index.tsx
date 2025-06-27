@@ -9,6 +9,8 @@ import JoinUsSection from '@/components/JoinUsSection';
 import Footer from '@/components/Footer';
 import ParticleBackground from '@/components/ParticleBackground';
 import { motion, useAnimation } from 'framer-motion';
+import ResearchSection from '@/components/ResearchSection'
+import DMDSection from '@/components/DMDSection'
 
 const Index: React.FC = () => {
   const controls = useAnimation();
@@ -30,7 +32,11 @@ const Index: React.FC = () => {
       <ParticleBackground />
       <NavBar />
       <HeroSection />
+
       <TechnologySection />
+      <DMDSection/>
+      
+      <ResearchSection/>
       <ProductSection />
       <AboutSection />
       <JoinUsSection />

@@ -20,6 +20,14 @@ export default {
 		},
 		extend: {
 			colors: {
+				// Medical theme colors
+				'medical-dark': '#0a0a0a',
+				'medical-gray': '#1a1a1a',
+				'medical-cyan': '#00bcd4',
+				'medical-blue': '#1976d2',
+				'medical-purple': '#9c4dcc',
+				'medical-light-purple': '#c5a3e0',
+
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -106,6 +114,16 @@ export default {
 				'scanline': {
 					'0%': { transform: 'translateY(-100%)' },
 					'100%': { transform: 'translateY(100%)' }
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
@@ -114,7 +132,8 @@ export default {
 				'pulse-glow': 'pulse-glow 3s infinite',
 				'float': 'float 6s ease-in-out infinite',
 				'gradientBg': 'gradientBg 15s ease infinite',
-				'scanline': 'scanline 2s linear infinite'
+				'scanline': 'scanline 2s linear infinite',
+				'fade-in': 'fade-in 0.6s ease-out'
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -12,8 +12,13 @@ interface NavItem {
 const navItems: NavItem[] = [
   { label: "Technology", href: "#technology" },
   { label: "Understanding DMD", href: "#dmd-info" },
+
+  { label: 'Research', href: '#research' },
+  { label: 'Product', href: '#product' },
   { label: "About", href: "#about" },
   { label: "Join Us", href: "#join" },
+
+  
 ];
 
 const NavBar: React.FC = () => {
